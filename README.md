@@ -16,7 +16,7 @@ that encodes [text](https://en.wikipedia.org/wiki/Written_language) characters a
 
 ### Partially paralyzed :
 
-individuals who are not able to speak face a major problem in communicating with other peoples. They also want to speak and communicate like other peoples do. 
+Individuals who are not able to speak face a major problem in communicating with other peoples. They also want to speak and communicate like other peoples do. 
 Usually this individuals have **tremors** ( **Tremor** is an involuntary, rhythmic muscle contraction leading to shaking movements in one or more parts of the body.
 It is a common movement disorder that most often affects the hands ). Due to **tremor** this individuals are not able to work on keyboards like all of us do.
 So to overcome this problem faced by this individuals we came up to an idea of using morse code for communicating with other people. As sending text messages is easy because
@@ -27,13 +27,16 @@ most technology today is designed for the mass market. Unfortunately, this can m
 Developing communication tools like this is important, because for many people, it simply makes life livable.
 
 ### Execution:
-We are planning to make a morse code converter using ESP8266 Nodemcu and the converted code will be sent to an android app where you will be able to see the sentence.
-All this data (i.e Converted code) will be first sent to firebase and from there to an android app.
+We have made a morse code converter circuit using ESP8266 Nodemcu with 2 momentary push button, one buzzer, one LED.
+- **Push Buttons** : The one push button is to feed the morse-code and other is for adding space and backspace purposes.
+- **Buzzer and LED** : Buzzer and LED are for visual and audio indiction for the input. 
+
+When the code is converted it is sent to a Realtime firebase database and from their the data is sent to an android app and presented to user in readable format.
+
 
 <img src="https://github.com/Amogh-Sadhu/Iot-Morse-code-interpreter/blob/main/Connections.png?raw=true"  width="300">
 
 
 ### Future Scope :
-1) We can make this system more compact and fit it on wheel chair of disabled individuals and these wheel chairs would be made readily available in market.
+1) We can make this system more compact using custom PCB instead of nodemcu esp8266 and fit it on wheel chair of disabled individuals and these wheel chairs would be made readily available in market.
 2) We can also provide the communication app to users through playstore for android, iOS devices.
-![](https://medium.com/@rashmin.ravindu?source=post_page-----60df579f962----------------------)
