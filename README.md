@@ -29,7 +29,7 @@ Developing communication tools like this is important, because for many people, 
 ### Execution:
 We have made a morse code converter circuit using ESP8266 Nodemcu with 2 momentary push button, one buzzer, one LED.
 - **Push Buttons** : The one push button is to feed the morse-code and other is for adding space and backspace purposes.
-- **Buzzer and LED** : Buzzer and LED are for visual and audio indiction for the input. 
+- **Buzzer and LED** : Buzzer and LED are for visual and audio indication for the input. 
 
 When the code is converted it is sent to a Realtime firebase database and from their the data is sent to an android app and presented to user in readable format.
 
