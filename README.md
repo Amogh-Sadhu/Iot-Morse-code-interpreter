@@ -12,6 +12,8 @@ Morse code is a [character encoding](https://en.wikipedia.org/wiki/Character_enc
 that encodes [text](https://en.wikipedia.org/wiki/Written_language) characters as standardized sequences of two different signal durations called _dots_ and _dashes.
 ![](RackMultipart20201224-4-4x3zja_html_1b75abf64ef31c76.png)
 
+<img src="https://github.com/Amogh-Sadhu/Iot-Morse-code-interpreter/blob/main/International%20Morse%20Code%20Chart.png?raw=true" >
+
 ### Partially paralyzed :
 
 individuals who are not able to speak face a major problem in communicating with other peoples. They also want to speak and communicate like other peoples do. 
@@ -27,6 +29,8 @@ Developing communication tools like this is important, because for many people, 
 ### Execution:
 We are planning to make a morse code converter using ESP8266 Nodemcu and the converted code will be sent to an android app where you will be able to see the sentence.
 All this data (i.e Converted code) will be first sent to firebase and from there to an android app.
+
+<img src="https://github.com/Amogh-Sadhu/Iot-Morse-code-interpreter/blob/main/Connections.png?raw=true"  width="300">
 
 
 ### Future Scope :
